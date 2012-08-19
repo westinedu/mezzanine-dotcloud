@@ -1,4 +1,4 @@
 www:
   type: python
 db:
-  mysql
+  type: mysql
