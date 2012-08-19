@@ -161,13 +161,13 @@ DATABASES = {
         # DB name or path to database file if using sqlite3.
         "NAME": "mezzanine_db",
         # Not used with sqlite3.
-        "USER": "root",
+        "USER": env['DOTCLOUD_DB_MYSQL_LOGIN'],
         # Not used with sqlite3.
-        "PASSWORD": "root",
+        "PASSWORD": env['DOTCLOUD_DB_MYSQL_PASSWORD'],
         # Set to empty string for localhost. Not used with sqlite3.
-        "HOST": "127.0.0.1",
+        "HOST": env['DOTCLOUD_DB_MYSQL_HOST'],
         # Set to empty string for default. Not used with sqlite3.
-        "PORT": "3306",
+        "PORT": int(env['DOTCLOUD_DB_MYSQL_PORT']),
     }
 }
 
