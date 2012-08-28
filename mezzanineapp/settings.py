@@ -211,7 +211,7 @@ MEDIA_ROOT = os.path.join(PROJECT_ROOT, *MEDIA_URL.strip("/").split("/"))
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
 # Examples: "http://foo.com/media/", "/media/".
-ADMIN_MEDIA_PREFIX = STATIC_URL + "grappelli/"
+#ADMIN_MEDIA_PREFIX = STATIC_URL + "grappelli/"
 
 # Package/module name to import the root urlpatterns from for the project.
 ROOT_URLCONF = "%s.urls" % PROJECT_DIRNAME
