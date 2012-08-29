@@ -5,3 +5,4 @@ grappelli_safe
 bleach
 pytz
 filebrowser_safe
+mezzanine
